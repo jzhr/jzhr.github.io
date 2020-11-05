@@ -8,7 +8,7 @@ const NavbarLinks = ({ desktop }) => (
       <a href="mailto:jz449@cornell.edu">
         <img src="/icons/mail.svg"></img>
       </a>
-      <a href="https://linkedin.com/jaszheng">
+      <a href="https://linkedin.com/in/jaszheng">
         <img src="/icons/linkedin.svg"></img>
       </a>
       <a href="https://github.com/jzhr">
