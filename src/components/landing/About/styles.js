@@ -53,5 +53,6 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+    margin: 0px;
   }
 `;

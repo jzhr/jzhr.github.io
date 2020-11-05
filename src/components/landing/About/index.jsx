@@ -8,7 +8,7 @@ export const About = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={mindset} width="350px" height="350px" alt="me" />
+        <img src={mindset} width="300px" height="300px" alt="me" />
       </Thumbnail>
       <Details>
         <h2>About Me</h2>

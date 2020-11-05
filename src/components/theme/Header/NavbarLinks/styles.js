@@ -33,6 +33,10 @@ export const Wrapper = styled.div`
 							margin-bottom: unset;
 					}
 			}
+
+			img {
+				margin: 0.5rem;
+			}
 	`}
 `;
 
