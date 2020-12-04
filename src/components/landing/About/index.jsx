@@ -12,8 +12,15 @@ export const About = () => (
       </Thumbnail>
       <Details>
         <h2>About Me</h2>
-        <p>I'm currently in my third year at Cornell University, pursuing a double major in Information Science and Statistical Science.</p>
-        <p>My interests include software engineering, data science, and web development. In my spare time, you'll find me reading good books, producing music, or hanging out with friends.</p>
+        <p>
+          I'm currently in my third year at Cornell University, pursuing a double major in Information Science and
+          Statistical Science.
+        </p>
+        <p>Originally born in Canada, I've lived briefly in California and now reside in Avon, Connecticut.</p>
+        <p>
+          My interests include web development and data science. In my spare time, you'll find me reading good books,
+          producing music, or hanging out with friends.
+        </p>
         <p>Actively seeking internship opportunities for Summer 2021 :)</p>
       </Details>
     </SkillsWrapper>

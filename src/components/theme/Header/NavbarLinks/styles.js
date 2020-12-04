@@ -15,10 +15,15 @@ export const Wrapper = styled.div`
 
 			a {
 					margin-right: 1rem;
-
+					display: inline-block;
+					height: 25px;
 					&:last-child {
 							margin-right: unset;
 					}
+			}
+
+			img {
+				margin-bottom: 0px;
 			}
 		`
       : `
@@ -28,7 +33,8 @@ export const Wrapper = styled.div`
 
 			a {
 					margin-bottom: 1rem;
-
+					display: inline-block;
+					height: 25px;
 					&:last-child {
 							margin-bottom: unset;
 					}
