@@ -1,6 +1,5 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Container, Button } from 'components/common';
+import { Container } from 'components/common';
 import mindset from 'assets/illustrations/mindset.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
@@ -16,12 +15,11 @@ export const About = () => (
           I'm currently in my third year at Cornell University, pursuing a double major in Information Science and
           Statistical Science.
         </p>
-        <p>Originally born in Canada, I've lived briefly in California and now reside in Avon, Connecticut.</p>
+        <p>Originally born in Canada 🇨🇦, I've lived briefly in California and now reside in Avon, Connecticut 🇺🇸.</p>
         <p>
-          My interests include web development and data science. In my spare time, you'll find me reading good books,
+          My interests include web development, UX design, and data science. In my spare time, you'll find me reading good books,
           producing music, or hanging out with friends.
         </p>
-        <p>Actively seeking internship opportunities for Summer 2021 :)</p>
       </Details>
     </SkillsWrapper>
   </Wrapper>
