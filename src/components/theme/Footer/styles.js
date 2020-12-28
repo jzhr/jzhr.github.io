@@ -53,6 +53,12 @@ export const Links = styled.div`
 `;
 
 export const Details = styled.div`
+  .source {
+    display: block;
+    color: #343434;
+    text-decoration: underline;
+  }
+
   @media (max-width: 680px) {
     margin-bottom: 2rem;
   }

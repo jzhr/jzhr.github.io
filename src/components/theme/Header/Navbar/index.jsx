@@ -6,7 +6,7 @@ import { Wrapper } from './styles';
 
 const Navbar = () => (
   <Wrapper as={Container}>
-    <Link className={"highlight"} to="/">jzhr</Link>
+    <Link className={"highlight"} to="/">{'{ jz }'}</Link>
     <NavbarLinks desktop />
   </Wrapper>
 );
