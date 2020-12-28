@@ -53,9 +53,11 @@ export const Links = styled.div`
 `;
 
 export const Details = styled.div`
+  color: hsla(0, 0%, 0%, 0.8);
+
   .source {
     display: block;
-    color: #343434;
+    color: #000000;
     text-decoration: underline;
   }
 

@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
 					}
 			}
 
-			img {
+			svg {
 				margin-bottom: 0px;
 			}
 		`
@@ -40,19 +40,19 @@ export const Wrapper = styled.div`
 					}
 			}
 
-			img {
+			svg {
 				margin: 0.5rem;
 			}
 	`}
 `;
 
 export const Contact = styled.div`
-  img {
-		opacity: 0.7;
+  svg {
+		opacity: 0.8;
 		transition: 0.3s;
 	}
 
-	img:hover {
+	svg:hover {
 		opacity: 1;
 	}
 `;

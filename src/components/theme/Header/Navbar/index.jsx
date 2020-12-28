@@ -2,11 +2,34 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container } from 'components/common';
 import NavbarLinks from '../NavbarLinks';
-import { Wrapper } from './styles';
+import { Wrapper, ThemeToggle } from './styles';
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 const Navbar = () => (
   <Wrapper as={Container}>
-    <Link className={"highlight"} to="/">{'{ jz }'}</Link>
+    <div className={"leftBlock"}>
+      <ThemeToggler>
+          {({ theme, toggleTheme }) => {
+            if (theme == null) {
+              return null
+            }
+            return (
+              <label for="toggle">
+                <input
+                  type="checkbox"
+                  id="toggle"
+                  onChange={(e) =>
+                    toggleTheme(e.target.checked ? 'dark' : 'light')
+                  }
+                  checked={theme === 'dark'}
+                />
+                <ThemeToggle/>
+              </label>
+            )}
+          }
+        </ThemeToggler>
+        <Link className={"highlight"} to="/">{'{ jz }'}</Link>
+      </div>
     <NavbarLinks desktop />
   </Wrapper>
 );

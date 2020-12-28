@@ -11,12 +11,12 @@ export const Overlay = styled.div`
   width: 100%;
   height: 100%;
   display: none;
-  transition: 0.4s;
+  transition: 0.5s;
 
   ${({ sidebar }) =>
     sidebar &&
     `
 			display: block;
-			z-index: 4;	
+			z-index: 3;	
 	`}
 `;

@@ -1,8 +1,6 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  background-image: url(${detailsIllustration});
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
@@ -39,12 +37,13 @@ export const Details = styled.div`
     font-size: 16pt;
     font-weight: normal;
     line-height: 1.3;
-    color: #707070;
+    color: var(--colorLite);
   }
 `;
 
 export const Thumbnail = styled.div`
   flex: 1;
+  text-align: center;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -52,7 +51,6 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    width: 100%;
     margin: 0px;
   }
 `;
