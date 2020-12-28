@@ -22,42 +22,10 @@ export const Wrapper = styled.div`
 		width: 104px;
 	}
 
-  .highlight {
+  .logo {
 		margin-left: 15px;
 		display: inline-block;
 		color: var(--color);
-		transition: color 250ms, text-shadow 250ms;
-		text-decoration: none;
-		
-		position: relative;
-		z-index: 0;
-
-		&::after {
-			position: absolute;
-			z-index: -1;
-			bottom: -5px;
-			left: 50%;
-			transform: translateX(-50%);
-			content: '';
-			width: 100%;
-			height: 0px;
-			background-color: var(--color);
-			transition: all 250ms;
-			border-radius: 5px;
-		}
-
-		&:hover {
-			color: var(--bg);
-			
-			&::after {
-				height: 150%;
-        width: 150%;
-			}
-		}
-	}
-	body.dark .highlight{
-		color: #FFFFFF;
-	}
 `;
 
 export const ThemeToggle = styled.div`
@@ -66,7 +34,7 @@ export const ThemeToggle = styled.div`
 	height: 20px;
 	cursor: pointer;
 	background: none;
-	border: 5px solid var(--colorLite);
+	border: 3px solid var(--colorLite);
 	border-radius: var(--toggleBorderRadius);
 	transition: border-radius 0.5s, border-color 0.5s;
 	&:hover {

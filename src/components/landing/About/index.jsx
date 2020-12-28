@@ -1,18 +1,16 @@
 import React from 'react';
 import { Container } from 'components/common';
-import mindset from 'assets/illustrations/mindset.svg';
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
+import { AboutWrapper, Details, Thumbnail } from './styles';
 
 export const About = () => (
-  <Wrapper id="about">
-    <SkillsWrapper as={Container}>
+    <AboutWrapper as={Container}>
       <Thumbnail>
         <img src={'/me.JPG'} width="350px" height="350px" alt="me" />
       </Thumbnail>
       <Details>
         <h2>About Me</h2>
         <p>
-          I'm currently in my third year at Cornell University, pursuing a double major in Information Science and
+          I'm currently a third-year undergraduate at Cornell University, pursuing a double major in Information Science and
           Statistical Science.
         </p>
         <p>Originally from Canada, I've lived briefly in California and now reside in Avon, Connecticut.</p>
@@ -21,6 +19,5 @@ export const About = () => (
           producing music, or hanging out with friends.
         </p>
       </Details>
-    </SkillsWrapper>
-  </Wrapper>
+    </AboutWrapper>
 );

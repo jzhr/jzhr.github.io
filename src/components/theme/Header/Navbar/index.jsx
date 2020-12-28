@@ -14,10 +14,9 @@ const Navbar = () => (
               return null
             }
             return (
-              <label for="toggle">
+              <label>
                 <input
                   type="checkbox"
-                  id="toggle"
                   onChange={(e) =>
                     toggleTheme(e.target.checked ? 'dark' : 'light')
                   }
@@ -28,7 +27,7 @@ const Navbar = () => (
             )}
           }
         </ThemeToggler>
-        <Link className={"highlight"} to="/">{'{ jz }'}</Link>
+        <Link className={"logo"} to="/">{'{ jz }'}</Link>
       </div>
     <NavbarLinks desktop />
   </Wrapper>

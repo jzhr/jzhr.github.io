@@ -1,11 +1,10 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
-import { Wrapper, IntroWrapper, Details } from './styles';
+import { IntroWrapper, Details } from './styles';
 
 export const Intro = () => (
-  <Wrapper>
+  <div>
     <Header />
     <IntroWrapper as={Container}>
       <Details>
@@ -19,5 +18,5 @@ export const Intro = () => (
         </a>
       </Details>
     </IntroWrapper>
-  </Wrapper>
+  </div>
 );

@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
-`;
-
-export const SkillsWrapper = styled.div`
+export const AboutWrapper = styled.div`
   padding: 4rem 0;
   display: flex;
   align-items: center;
@@ -33,7 +27,6 @@ export const Details = styled.div`
   }
 
   p {
-    margin-bottom: 2.5rem;
     font-size: 16pt;
     font-weight: normal;
     line-height: 1.3;
@@ -51,6 +44,6 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    margin: 0px;
+    border-radius: 3px;
   }
 `;

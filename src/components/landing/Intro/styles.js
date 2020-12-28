@@ -1,12 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  padding-bottom: 4rem;
-  background-size: contain;
-  background-position: right top;
-  background-repeat: no-repeat;
-`;
-
 export const IntroWrapper = styled.div`
   padding: 4rem 0;
   display: flex;
