@@ -5,7 +5,7 @@ import { AboutWrapper, Details, Thumbnail } from './styles';
 export const About = () => (
     <AboutWrapper as={Container}>
       <Thumbnail>
-        <img src={'/me.JPG'} width="350px" height="350px" alt="me" />
+        <img src={'/me.JPG'} alt="me" />
       </Thumbnail>
       <Details>
         <h2>About Me</h2>
