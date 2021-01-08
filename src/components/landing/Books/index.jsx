@@ -4,13 +4,13 @@ import { BooksWrapper, BookList } from './styles';
 import { selfHelp, sciFi, art, bio, biz } from 'data/bookdata.js'
 
 export const Books = () => {
-    const getBooks = ([title, author], key) =>
-      <li key={key}>
-        <div className="title"><strong>{ title }</strong></div>
-        <div className="author">{ author }</div>
-      </li>;
+  const getBooks = ([title, author], key) =>
+    <li key={key}>
+      <div className="title"><strong>{ title }</strong></div>
+      <div className="author">{ author }</div>
+    </li>;
 
-    return (
+  return (
     <BooksWrapper as={Container}>
       <BookList>
         <h1>Books</h1>
@@ -43,5 +43,6 @@ export const Books = () => {
           {biz.map(getBooks)}
         </ul>
       </BookList>
-    </BooksWrapper>);
+    </BooksWrapper>
+  );
 };
