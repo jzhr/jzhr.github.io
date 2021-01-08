@@ -627,7 +627,9 @@ export const Global = createGlobalStyle`
     }
 
     a {
+      color: var(--color);
       text-decoration: none;
+
     }
 
     input, select, textarea, button {

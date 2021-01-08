@@ -1,11 +1,10 @@
 import React from 'react';
-import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import { IntroWrapper, Details } from './styles';
+import { nominalTypeHack } from 'prop-types';
 
 export const Intro = () => (
   <div>
-    <Header />
     <IntroWrapper as={Container}>
       <Details>
         <h1>Hi! 👋🏻</h1>
