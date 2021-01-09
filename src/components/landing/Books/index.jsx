@@ -15,7 +15,7 @@ export const Books = () => {
       <BookList>
         <h1>Books</h1>
         <p>
-          my book recommendations and current reads of 2021, in no particular order.
+          some books that I find intriguing, in no particular order.
         </p>
 
         <h2>biographies</h2>

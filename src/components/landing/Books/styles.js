@@ -2,16 +2,19 @@ import styled from 'styled-components';
 
 export const BooksWrapper = styled.div`
   display: flex;
-  height: 100vh;
   width: 100%;
   justify-content: center;
+
+  p {
+    color: var(--colorLite);
+  }
 `;
 
 export const BookList = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 3rem;
+  padding: 2rem;
 
   ul {
     list-style-type: none;

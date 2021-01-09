@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
@@ -24,17 +24,17 @@ export const Item = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 0 1px 6px 0 var(--projectShadowColor);
   border-radius: 3px;
   opacity: 0.75;
   transition: 0.3s;
 
   h4 {
-    color: #212121;
+    color: var(--color);
   }
 
   p {
-    color: #707070;
+    color: var(--colorLite);
   }
 
   &:hover {
@@ -61,7 +61,7 @@ export const Stats = styled.div`
     }
 
     span {
-      color: #000;
+      color: var(--color);
       margin-left: 0.5rem;
     }
   }

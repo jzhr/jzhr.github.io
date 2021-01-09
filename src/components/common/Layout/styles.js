@@ -604,6 +604,7 @@ export const Global = createGlobalStyle`
       --color: hsla(0, 0%, 0%, 0.8);
       --colorLite: #707070;
       --toggleBorderRadius: 50%;
+      --projectShadowColor: rgba(0, 0, 0, 0.15);
 
       background-color: var(--bg);
       transition: .5s ease;
@@ -624,6 +625,8 @@ export const Global = createGlobalStyle`
       --color: #FFFFFF;
       --colorLite: #c8c8c8;
       --toggleBorderRadius: 10%;
+      --projectTileColor: #383838;
+      --projectShadowColor: rgba(255, 255, 255, 0.15);
     }
 
     a {

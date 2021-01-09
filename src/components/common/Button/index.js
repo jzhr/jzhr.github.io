@@ -9,7 +9,7 @@ export const Button = styled.button`
   border-radius: 3px;
   padding: 0.7rem 2.5rem;
   border: none;
-  opacity: 0.8;
+  opacity: 0.85;
 	transition: 0.3s;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
@@ -19,7 +19,7 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #0074d9;
+  background: #007FFF;
 
   &:focus {
     outline: none;

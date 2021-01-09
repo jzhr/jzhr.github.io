@@ -32,6 +32,19 @@ export const Details = styled.div`
     line-height: 1.3;
     color: var(--colorLite);
   }
+
+  .highlight-link {
+    padding: 0 2px 2px 2px;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 #007FFF;
+  }
+
+  .highlight-link:hover {
+    box-shadow: inset 0 -55px 0 0 #007FFF;
+    color: white;
+  }
 `;
 
 export const Thumbnail = styled.div`
