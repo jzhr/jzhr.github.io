@@ -6,6 +6,10 @@ export const AboutWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  img {
+    margin-bottom: 0px;
+  }
+
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -38,11 +42,11 @@ export const Details = styled.div`
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     text-decoration: none;
-    box-shadow: inset 0 -1px 0 #007FFF;
+    box-shadow: inset 0 -1px 0 #007fff;
   }
 
   .highlight-link:hover {
-    box-shadow: inset 0 -55px 0 0 #007FFF;
+    box-shadow: inset 0 -55px 0 0 #007fff;
     color: white;
   }
 `;

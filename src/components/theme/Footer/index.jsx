@@ -10,7 +10,9 @@ export const Footer = () => (
       <Details>
         <h2>jason zheng</h2>
         <span>{`© ${new Date().getFullYear()}`}</span>
-        <Link className="source" to="https://github.com/jzhr/jzhr.github.io">source</Link>
+        <Link className="source" to="https://github.com/jzhr/jzhr.github.io">
+          source
+        </Link>
       </Details>
       <Links>
         {social.map(({ id, name, link, icon }) => (
