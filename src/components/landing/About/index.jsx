@@ -13,15 +13,16 @@ export const About = () => (
       <h2>About Me</h2>
       <p>
         I'm currently a third-year undergraduate at Cornell University, pursuing a double major in Information Science
-        and Statistical Science.
+        and Statistics.
       </p>
-      <p>Originally from Canada, I've lived briefly in California and now reside in Avon, Connecticut.</p>
       <p style={{ margin: '0px' }}>
-        My interests include web dev, UI/UX design, and everything data. In my spare time, you'll find me reading{' '}
+        My interests include web development, UI/UX design, and data visualization. In my spare time, you'll find me
+        reading good books
+        {/* {' '}
         <Link to="/books" className="highlight-link">
           good books
-        </Link>
-        , staying active, or hanging out with friends.
+        </Link> */}, trying
+        out new recipes, or hanging out with friends.
       </p>
     </Details>
   </AboutWrapper>
